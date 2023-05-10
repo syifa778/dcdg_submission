@@ -3,7 +3,7 @@ const path = require('path');
 
 const init = async () => {
   const server = new Hapi.server({
-    port: 8000,
+    port: 5000,
     host: process.env.NODE_ENV !== 'production' ? 'localhost' : '0.0.0.0',
     routes: {
       files: {
